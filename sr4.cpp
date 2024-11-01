@@ -7,7 +7,7 @@ int main()
 	double y, x; 
 	cout << "Введiть значення х= ";
 	cin >> x;
-	return 0;
+	y = (x+2*x+sin(x))/(pow(cos(x),2)+x*x)+(pow(0.3,x)/log(x));
+	cout << "Результат y= " << y << endl;
+	eturn 0;
 }
-
-
