@@ -9,5 +9,5 @@ int main()
 	cin >> x;
 	y = (x+2*x+sin(x))/(pow(cos(x),2)+x*x)+(pow(0.3,x)/log(x));
 	cout << "Результат y= " << y << endl;
-	eturn 0;
+	return 0;
 }
